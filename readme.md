@@ -26,6 +26,39 @@
 - https://obsidian.md/download
 - https://mullvad.net/en/download/windows/
 
+## Keyboard bindings
+- https://github.com/randyrants/sharpkeys/releases (remap CTRL to ALT, basically use mac keyboard layout)
+- https://www.autohotkey.com/download/
+
+### AHK scripts:
+
+Great stuff to transform IKJL to arrows when useless caps is pressed. 
+``` 
+;run when caps lock is pressed remap IKJL to arrow keys 
+#KeyHistory 0
+CapsLock & i::Up
+CapsLock & k::Down
+CapsLock & j::Left
+CapsLock & l::Right
+```
+
+Press Shift + @
+```
+;Mail Shortcuts
+#Hotstring EndChars `t
+:c:@@::mail main
+:c:@1::mail1
+:c:@2::mail2
+:c:@3::mail3
+```
+
+Press win + space to open Keepass
+```
+;run keepass
+#Space::
+run [insert path to file here]
+```
+
 ## Development
 - https://code.visualstudio.com/download
 - https://nodejs.org/

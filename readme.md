@@ -74,3 +74,16 @@ run [insert path to file here]
 
 ## Other drivers
 - https://www.solidstatelogic.com/support-page/downloads
+
+
+# Search sites
+- https://www.searchenginemap.com/ (to see whose web crawlers each search site depends upon)
+
+## SearXNG / SearX
+### All instances 
+- https://searx.space/
+
+### Good instances
+- https://paulgo.io
+- https://searx.be
+- https://searx.fmac.xyz/
